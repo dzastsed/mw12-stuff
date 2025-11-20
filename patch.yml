@@ -44,3 +44,14 @@ PPU-872db7aff8a2288ab33bcfc6a0650a89a564f7f6:
     Patch:
       - [ be32, 0x000dd0090, 0x4e800020 ]
       - [ be32, 0x000dd0064, 0x4e800020 ]
+      
+  PPU-3bb10425ccd83bd271f7398b3a808abd6848a682:
+  "Disable asserts hp nov 05":
+    Games:
+      "NFSHP2010":
+        BLUS30566: [ 01.01 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00d47c90, 0x4e800020 ]
