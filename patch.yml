@@ -55,3 +55,15 @@ PPU-872db7aff8a2288ab33bcfc6a0650a89a564f7f6:
     Patch Version: 1.0
     Patch:
       - [ be32, 0x00d47c90, 0x4e800020 ]
+
+PPU-a9e2f2fadf73a36413bc4d3d75db31e4c5ad4892:
+  "Disable asserts build "a"":
+    Games:
+      "NFSHP2010":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.2
+    Patch:
+      - [ be32, 0x00d6fdd8, 0x4e800020 ]
+      - [ be32, 0x00d6fdec, 0x4e800020 ]
