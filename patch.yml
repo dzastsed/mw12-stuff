@@ -57,9 +57,9 @@ PPU-3bb10425ccd83bd271f7398b3a808abd6848a682:
       - [ be32, 0x00d47c90, 0x4e800020 ]
 
 PPU-a9e2f2fadf73a36413bc4d3d75db31e4c5ad4892:
-  "Disable asserts build "a"":
+  "Disable asserts build a":
     Games:
-      "NFSHP2010":
+      "NFSMW2012":
         TEST12345: [ 01.00 ]
     Author: "justanyone, jason098"
     Notes: "Disable all asserts"
