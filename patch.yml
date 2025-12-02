@@ -79,3 +79,31 @@ PPU-06143ee18040b917d05616f3bad4f6b584b776b4:
     Patch:
       - [ be32, 0x00c5a59c, 0x4e800020 ]
       - [ be32, 0x00c57a80, 0x4e800020 ]
+
+PPU-16af74a5308a69aaf69036a538c546b144a3c2c3:
+  "Disable asserts 2011-11-20 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x01b07b90, 0x4e800020 ]
+      - [ be32, 0x00c5eaec, 0x4e800020 ]
+      - [ be32, 0x00c5b548, 0x4e800020 ]
+      - [ be32, 0x01b07b10, 0x4e800020 ]
+      
+PPU-d51c1d9c877cecf0bf152f0eb77fa2264728f3ef:
+  "Disable asserts 2011-11-24 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x019558f8, 0x4e800020 ]
+      - [ be32, 0x00c1e258, 0x4e800020 ]
+      - [ be32, 0x00c1d3d4, 0x4e800020 ]
+      - [ be32, 0x019558b0, 0x4e800020 ]
