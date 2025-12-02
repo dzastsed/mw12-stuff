@@ -95,7 +95,7 @@ PPU-16af74a5308a69aaf69036a538c546b144a3c2c3:
       - [ be32, 0x01b07b10, 0x4e800020 ]
       
 PPU-d51c1d9c877cecf0bf152f0eb77fa2264728f3ef:
-  "Disable asserts 2011-11-24 build":
+  "Disable asserts 2011-11-24 build artist self":
     Games:
       "NFSMW2012":
         TEST12345: [ 01.00 ]
