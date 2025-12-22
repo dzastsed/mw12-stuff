@@ -1,0 +1,280 @@
+Version: 1.2
+
+PPU-f50e577612f9081533fb5ad0c3c05ab47c5969b3:
+  "Disable asserts main_pc":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "JustAnyone, Jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x000c80ab0, 0x4e800020 ]
+      - [ be32, 0x000ce7360, 0x4e800020 ]
+      - [ be32, 0x000ce7730, 0x4e800020 ]
+      - [ be32, 0x000ce7360, 0x4e800020 ]
+      - [ be32, 0x000c80a84, 0x4e800020 ]
+
+
+PPU-9a4137db1ca684d1710bd78f242ad835fec90aad:
+  "Disable asserts gamescom 2012-08-12-2010 internal self":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "JustAnyone, Jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x000cdcf64, 0x4e800020 ]
+      - [ be32, 0x000d42f10, 0x4e800020 ]
+      - [ be32, 0x000d43288, 0x4e800020 ]
+      - [ be32, 0x000d42f10, 0x4e800020 ]
+      - [ be32, 0x000cdcf38, 0x4e800020 ]
+
+
+      
+PPU-872db7aff8a2288ab33bcfc6a0650a89a564f7f6:
+  "Disable asserts main_hhh - needs more testing":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "JustAnyone, Jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x000dd0090, 0x4e800020 ]
+      - [ be32, 0x000dd0064, 0x4e800020 ]
+      
+PPU-3bb10425ccd83bd271f7398b3a808abd6848a682:
+  "Disable asserts hp nov 05":
+    Games:
+     "NFSHP2010":
+       BLUS30566: [ 01.01 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00d47c90, 0x4e800020 ]
+
+PPU-a9e2f2fadf73a36413bc4d3d75db31e4c5ad4892:
+  "Disable asserts build a":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00d6fdd8, 0x4e800020 ]
+      - [ be32, 0x00d6fdec, 0x4e800020 ]
+      
+PPU-06143ee18040b917d05616f3bad4f6b584b776b4:
+  "Disable asserts build s":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00c5a59c, 0x4e800020 ]
+      - [ be32, 0x00c57a80, 0x4e800020 ]
+
+PPU-16af74a5308a69aaf69036a538c546b144a3c2c3:
+  "Disable asserts 2011-12-20 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x01b07b90, 0x4e800020 ]
+      - [ be32, 0x00c5eaec, 0x4e800020 ]
+      - [ be32, 0x00c5b548, 0x4e800020 ]
+      - [ be32, 0x01b07b10, 0x4e800020 ]
+      
+PPU-d51c1d9c877cecf0bf152f0eb77fa2264728f3ef:
+  "Disable asserts 2011-11-24 build artist self":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x019558f8, 0x4e800020 ]
+      - [ be32, 0x00c1e258, 0x4e800020 ]
+      - [ be32, 0x00c1d3d4, 0x4e800020 ]
+      - [ be32, 0x019558b0, 0x4e800020 ]
+      
+PPU-5049ff10e07d832e7877631d308f802a6e774ccc:
+  "Disable asserts 2011-12-21 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00c5e8a8, 0x4e800020 ]
+      - [ be32, 0x01b07b80, 0x4e800020 ]
+      - [ be32, 0x00c5b304, 0x4e800020 ]
+      - [ be32, 0x01b07b00, 0x4e800020 ]
+      
+PPU-20d231a244182dc895566d2b8d80ad61fdb9b7dd:
+  "Disable asserts 2012-01-24 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00d1a140, 0x4e800020 ]
+      - [ be32, 0x01b776a8, 0x4e800020 ]
+      - [ be32, 0x00d16d6c, 0x4e800020 ]
+      - [ be32, 0x01b77650, 0x4e800020 ]
+      
+      
+PPU-3fff79bf0b3a7472ce9cda2e722808b3783b3bbf:
+  "Disable asserts 2012-01-27 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00d29ab0, 0x4e800020 ]
+      - [ be32, 0x01b98828, 0x4e800020 ]
+      - [ be32, 0x00d155dc, 0x4e800020 ]
+      - [ be32, 0x01b987d0, 0x4e800020 ]
+      
+PPU-fa3c28e2b1c865e690f1acaa3a38e98b073b4ce3:
+  "Disable asserts 2012-03-01 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00c47eac, 0x4e800020 ]
+      - [ be32, 0x00c45390, 0x4e800020 ]
+      
+      
+PPU-6d0d219a7b785d9cf46c1e3e368eaa91c53d51d9:
+  "Disable asserts 2012-04-25 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00d186ec, 0x4e800020 ]
+      - [ be32, 0x00d15bd0, 0x4e800020 ]
+      
+PPU-4784ac8a6d2f71ed1ac99a6cf5fa78eff74106e3:
+  "Disable asserts 2012-05-31 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00e339e4, 0x4e800020 ]
+      - [ be32, 0x00e30f20, 0x4e800020 ]
+      
+PPU-ed9c814814c572387f7786370e11722bf7c44ec2:
+  "Disable asserts 2012-07-21 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00c6e27c, 0x4e800020 ]
+      - [ be32, 0x00c6b010, 0x4e800020 ]
+      
+PPU-305f94e895c03d8e2555d9452bcfbc3130470c66:
+  "Disable asserts 2012-08-11 build - UNFINISHED (might not work due to broken files)":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00cdc3d8, 0x4e800020 ]
+      - [ be32, 0x00cdc404, 0x4e800020 ]
+      - [ be32, 0x00d42428, 0x4e800020 ]
+      - [ be32, 0x00d423b0, 0x4e800020 ]
+
+PPU-fc232737c26bccb8640652db12ccae78d7c85ee2:
+  "Disable asserts 2012-09-14 builds":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00ce0b9c, 0x4e800020 ]
+      - [ be32, 0x00cdc3e0, 0x4e800020 ]
+      
+PPU-b82e682ece937a37ebf817f903b0860b355912ad:
+  "Disable asserts 2012-09-25 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00cf1cec, 0x4e800020 ]
+      - [ be32, 0x00ced530, 0x4e800020 ]
+      
+      
+PPU-5759afb1f55d14591f73a0e4d525f51c990e5798:
+  "Disable asserts 2012-10-15 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00cfb00c, 0x4e800020 ]
+      - [ be32, 0x00cf6850, 0x4e800020 ]
+      
+PPU-b147509aba4a16a3681c9746b0f11c4b8ecdf616:
+  "Disable asserts 2012-11-30 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00d2141c, 0x4e800020 ]
+      - [ be32, 0x00d1cc60, 0x4e800020 ]
+
+PPU-3fa9e3cff6879bdad2867b85ccc2099088df6da2:
+  "Disable asserts 2013-01-25 build":
+    Games:
+      "NFSMW2012":
+        TEST12345: [ 01.00 ]
+    Author: "justanyone, jason098"
+    Notes: "Disable all asserts"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00d30ddc, 0x4e800020 ]
+      - [ be32, 0x00d2c620, 0x4e800020 ]
+
+
+
+
